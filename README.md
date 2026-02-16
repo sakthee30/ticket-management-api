@@ -1,4 +1,4 @@
-# 🎟️ Ticket Management API
+# 🎟️ Movie Ticket Management API
 
 This project is a backend API application built using FastAPI to manage movie ticket booking workflows.  
 It provides APIs for user authentication, movie and theatre management, showtime scheduling, seat booking, and payment handling.
@@ -9,7 +9,7 @@ The system is designed with a clear structure, database-driven logic, and real-w
 
 ## 📦 Project Overview
 
-The Ticket Management API allows users to:
+The Movie Ticket Management API allows users to:
 
 - Register and authenticate using JWT-based authentication
 - Browse movies, theatres, and available showtimes
