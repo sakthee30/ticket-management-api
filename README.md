@@ -98,33 +98,3 @@ All interactions are handled through RESTful APIs.
 git clone <your-repository-url>
 cd ticket_management
 
-### 2️⃣ Create and Activate Virtual Environment
-```bash
-python -m venv venv
-
-##Windows
-venv\Scripts\activate
-
-##Mac/Linux
-source venv/bin/activate
-
-3️⃣ Install Dependencies
-pip install -r requirements.txt
-
-4️⃣ Start the Application
-uvicorn app.main:app --reload
-
-5️⃣ Run the Application
-python main.py
-
-6️⃣ Access API Documentation
-Open your browser and navigate to: http://127.0.0.1:8000/docs
-
-This Swagger UI allows you to test all APIs such as:
-
-1. Authentication
-2. Movie & Theatre management
-3. Booking
-4. Payments
-5. Admin APIs
-
